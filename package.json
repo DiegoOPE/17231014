@@ -1,0 +1,23 @@
+{
+  "name": "dados-assimilados-bot",
+  "version": "2.0.0",
+  "description": "Discord bot for Dados Assimilados RPG system with unified database schema",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "migrate": "node migrate.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "rpg",
+    "dados-assimilados"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.22.1",
+    "dotenv": "^16.6.1",
+    "mongodb": "^6.20.0"
+  }
+}
